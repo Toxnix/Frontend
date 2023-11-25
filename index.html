@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Satzbearbeitungsseite</title>
+</head>
+
+<body>
+    <h1>Satzbearbeitungsseite</h1>
+
+    <h2>Datei hochladen</h2>
+    <input type="file" id="fileInput">
+    <button onclick="handleFileUpload()">Hochladen</button>
+
+    <h2>Hochgeladene Datei anzeigen</h2>
+    <pre id="fileContent"></pre>
+
+    <h2>Sätze bearbeiten</h2>
+    <div class="table-container">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Satz</th>
+                    <th>Toxic</th>
+                    <th>Begründung</th>
+                </tr>
+            </thead>
+            <tbody id="sentenceList">
+                <!-- Hier werden die Sätze dynamisch hinzugefügt -->
+            </tbody>
+        </table>
+    </div>
+
+    <h3>Satz hinzufügen:</h3>
+    <input type="text" id="newSentence" placeholder="Neuer Satz" onkeypress="handleNewSentenceKeyPress(event)">
+    <button onclick="addIndividualSentence()">Hinzufügen</button>
+
+    <h3>Daten exportieren:</h3>
+    <button onclick="exportData()">Exportieren</button>
+    <script src="script.js"></script>
+</body>
+
+</html>

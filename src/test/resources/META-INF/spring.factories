@@ -1,3 +1,0 @@
-org.springframework.test.context.ContextCustomizerFactory = de.bacherik.config.\
-    TestContainersSpringContextCustomizerFactory,de.bacherik.config.\
-    SqlTestContainersSpringContextCustomizerFactory
