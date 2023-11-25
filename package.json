@@ -117,7 +117,7 @@
     "@types/sinon": "10.0.20",
     "@vitejs/plugin-vue": "4.4.0",
     "@vitest/coverage-v8": "0.34.6",
-    "@vue/compiler-sfc": "3.3.7",
+    "@vue/compiler-sfc": "3.3.9",
     "@vue/eslint-config-prettier": "8.0.0",
     "@vue/eslint-config-typescript": "10.0.0",
     "@vue/test-utils": "2.4.1",
